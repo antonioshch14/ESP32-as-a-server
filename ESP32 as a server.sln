@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ESP32 as a server", "ESP32 as a server.vcxproj", "{C5F80730-F44F-4478-BDAE-6634EFC2CA88}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ESP32", "Libraries\ESP32\ESP32.vcxitems", "{28BB5854-8D74-4850-967F-4E7CA93631E4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SdFat_-_Adafruit_Fork", "Libraries\SdFat_-_Adafruit_Fork\SdFat_-_Adafruit_Fork.vcxitems", "{843E1BB4-F5E9-497A-854C-B46A35B47199}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WiFi", "Libraries\WiFi\WiFi.vcxitems", "{51BEE560-6F9C-4C9C-8F6B-236632E7403A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SPIFFS", "Libraries\SPIFFS\SPIFFS.vcxitems", "{BD9E7221-8952-4C11-BBBE-8BF94067667C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SD", "Libraries\SD\SD.vcxitems", "{0997CAB1-57CB-4787-8FD3-0566831E415D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WebServer", "Libraries\WebServer\WebServer.vcxitems", "{F216E440-9127-4BEC-A47F-13113717555D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FS", "Libraries\FS\FS.vcxitems", "{6FFABC20-8DE3-4469-BEBA-E1DBA97F39EC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LCDMenuLib2", "Libraries\LCDMenuLib2\LCDMenuLib2.vcxitems", "{FCE16999-DD6F-4545-A512-4DDA9A86DFCD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ESPmDNS", "Libraries\ESPmDNS\ESPmDNS.vcxitems", "{26AEA80B-267B-4813-9BCC-87B292105827}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Arduino_JSON", "Libraries\Arduino_JSON\Arduino_JSON.vcxitems", "{B306B5DC-8914-40A9-A9E0-2F706A1472A6}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Libraries\SD\SD.vcxitems*{0997cab1-57cb-4787-8fd3-0566831e415d}*SharedItemsImports = 9
+		Libraries\ESPmDNS\ESPmDNS.vcxitems*{26aea80b-267b-4813-9bcc-87b292105827}*SharedItemsImports = 9
+		Libraries\ESP32\ESP32.vcxitems*{28bb5854-8d74-4850-967f-4e7ca93631e4}*SharedItemsImports = 9
+		Libraries\WiFi\WiFi.vcxitems*{51bee560-6f9c-4c9c-8f6b-236632e7403a}*SharedItemsImports = 9
+		Libraries\FS\FS.vcxitems*{6ffabc20-8de3-4469-beba-e1dba97f39ec}*SharedItemsImports = 9
+		Libraries\SdFat_-_Adafruit_Fork\SdFat_-_Adafruit_Fork.vcxitems*{843e1bb4-f5e9-497a-854c-b46a35b47199}*SharedItemsImports = 9
+		Libraries\Arduino_JSON\Arduino_JSON.vcxitems*{b306b5dc-8914-40a9-a9e0-2f706a1472a6}*SharedItemsImports = 9
+		Libraries\SPIFFS\SPIFFS.vcxitems*{bd9e7221-8952-4c11-bbbe-8bf94067667c}*SharedItemsImports = 9
+		Libraries\Arduino_JSON\Arduino_JSON.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		Libraries\ESP32\ESP32.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		Libraries\ESPmDNS\ESPmDNS.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		Libraries\FS\FS.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		Libraries\LCDMenuLib2\LCDMenuLib2.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		Libraries\SdFat_-_Adafruit_Fork\SdFat_-_Adafruit_Fork.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		Libraries\SD\SD.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		Libraries\SPIFFS\SPIFFS.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		Libraries\WebServer\WebServer.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		Libraries\WiFi\WiFi.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		Libraries\WebServer\WebServer.vcxitems*{f216e440-9127-4bec-a47f-13113717555d}*SharedItemsImports = 9
+		Libraries\LCDMenuLib2\LCDMenuLib2.vcxitems*{fce16999-dd6f-4545-a512-4dda9a86dfcd}*SharedItemsImports = 9
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Debug|x86.ActiveCfg = Debug|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Debug|x86.Build.0 = Debug|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Release|x86.ActiveCfg = Release|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C36EE52D-6005-4A7A-BB94-E824BA6FACC6}
+	EndGlobalSection
+EndGlobal

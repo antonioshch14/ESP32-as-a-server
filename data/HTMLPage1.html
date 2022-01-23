@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+<html lang=fr-FR>
+<head>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+    <meta charset='utf-8'>
+    <style>
+        body {
+            background-color: white;
+            font-family: Arial, Helvetica, Sans-Serif;
+            Color: #000088;
+        }
+        h4 {
+            margin: 2px 2px 2px 2px;
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <h1>Rabbit Barn</h1>
+    <h3>Socket</h3>
+    
+
+    <ul>
+        <li>
+            FAN Pause activate
+            <button id="pause">PAUSE ON</button>
+            <a id="pauseState"> OFF</a>
+
+        </li>
+        </br>
+        <li>
+            FAN1
+            <button id="fan1">Switch ON</button>
+            <a id="fan1State">OFF</a>
+
+        </li>
+        </br>
+        <li>
+            FAN2
+            <button id="fan2">Switch ON</button>
+            <a id="fan2State"> OFF</a>
+
+        </li>
+        </br>
+        <li>
+            Light 1
+            <button id="light1">Switch ON</button>
+            <a id="light1State"> OFF</a>
+
+        </li>
+        </br>
+        <li>
+            Light 2
+            <button id="light2">Switch ON</button>
+            <a id="light2State"> OFF</a>
+
+        </li>
+        </br>
+        <li>
+            Light auto
+            <button id="lightSetAuto">AUTO</button>
+            <a id="lightSetAutoState"> OFF</a>
+
+        </li>
+        </br>
+        <li>
+            Light automated operation wo human
+            <button id="lightAuto">Switch ON</button>
+            <a id="lightAutoState"> OFF</a>
+
+        </li>
+        <p>Recieved data = <span id='rd'>---</span> </p>
+        <br>
+    </ul>
+    <h3>Set time of fan to work (ms)</h3>
+    <ul>
+        <input type="text" id="fanTime" />
+        <input type="button" id="fanTimeSubmit" value="submit" />
+    </ul>
+    <!--<h3>test input</h3>
+    <ul>
+        <input type="text" id="testInput" />
+        <input type="button" id="testButton" value="process" />
+    </ul>-->
+
+</body>
+<iframe name="hiddenFrame" width="0" height="0" border="0" style="display: none;"></iframe>
+<ul id="UNOdata"></ul>
+</br>
+<ul id="messages"></ul>
+<script src="Script1.js"></script>
+
+</html>
